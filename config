@@ -1,0 +1,5 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host ec2-54-200-219-49.us-west-2.compute.amazonaws.com
+    HostName ec2-54-200-219-49.us-west-2.compute.amazonaws.com
+    User ec2-user
+    IdentityFile ~/Personal/FB/stock-predictor/dostojic-stock-predictor-fastapi.pem
